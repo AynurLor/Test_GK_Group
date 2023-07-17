@@ -1,4 +1,4 @@
-package com.example.test.model.editor;
+package com.example.test.view;
 
 import com.example.test.controller.Controller;
 import com.example.test.model.entity.Clicker;

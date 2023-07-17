@@ -1,7 +1,6 @@
 package com.example.test.view;
 
 import com.example.test.controller.Controller;
-import com.example.test.model.editor.CounterEditor;
 import com.example.test.model.entity.Clicker;
 import com.vaadin.flow.component.*;
 import com.vaadin.flow.component.button.Button;
