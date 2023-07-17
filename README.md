@@ -1,4 +1,7 @@
 # Clicker
+
+![](materials/main_view.png)
+
 ## Описание
 
 Данное приложение "Clicker" реализовано с использованием Java, Spring Boot, Vaadin и базы данных H2. Приложение позволяет пользователям увеличивать счетчик, нажимая на кнопку, и сохранять значение счетчика в базе данных.
@@ -13,6 +16,8 @@
 
 ## Предварительные требования
 - Java 17
+- Spring Boot 3
+- Vaadin 24
 - Maven
 
 ## Установка
@@ -36,12 +41,7 @@
 - `pom.xml`: Содержит зависимости проекта и его конфигурацию.
 
 
-## Prerequisites
-
-- Java 17
-- Maven
-
-## Installation
+## Установка
 
 1. Clone the repository:
 
@@ -49,19 +49,19 @@
    git clone https://github.com/your-username/clicker-app.git
    ```
 
-2. Navigate to the project directory:
+2. Перейдите в каталог проекта:
 
    ```
    cd clicker-app
    ```
 
-3. Build the application:
+3. Постройте приложение:
 
    ```
    mvn clean package
    ```
 
-4. Run the application:
+4. Запустите приложение:
 
    ```
    mvn spring-boot:run
@@ -71,14 +71,8 @@
 
 6. Доступ к базе данных в веб-браузере по адресу `http://localhost:8080/h2-console`
 
-## Usage
 
-1. Откройте приложение Clicker в веб-браузере.
-2. Нажмите кнопку "+", чтобы увеличить значение счетчика.
-3. Обновленное значение счетчика будет отображено в пользовательском интерфейсе.
-4. После каждого увеличения значение счетчика автоматически сохраняется в базе данных.
-
-## Project Structure
+## Структура проекта
 
 ```
 clicker-app/
